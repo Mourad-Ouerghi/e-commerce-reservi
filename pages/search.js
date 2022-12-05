@@ -122,7 +122,7 @@ export default function Search(props) {
             </select>
           </div>
           <div className="mb-3">
-            <h2>Brands</h2>
+            <h2>Hosts</h2>
             <select className="w-full" value={brand} onChange={brandHandler}>
               <option value="all">All</option>
               {brands &&

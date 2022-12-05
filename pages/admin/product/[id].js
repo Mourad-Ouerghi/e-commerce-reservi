@@ -248,7 +248,7 @@ export default function AdminProductEditScreen() {
                 )}
               </div>
               <div className="mb-4">
-                <label htmlFor="brand">brand</label>
+                <label htmlFor="brand">Host</label>
                 <input
                   type="text"
                   className="w-full"
