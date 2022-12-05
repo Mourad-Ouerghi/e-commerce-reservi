@@ -145,7 +145,7 @@ export default function Search(props) {
                 ))}
             </select>
           </div>
-          <div className="mb-3">
+          {/* <div className="mb-3">
             <h2>Ratings</h2>
             <select className="w-full" value={rating} onChange={ratingHandler}>
               <option value="all">All</option>
@@ -156,7 +156,7 @@ export default function Search(props) {
                   </option>
                 ))}
             </select>
-          </div>
+          </div> */}
         </div>
         <div className="md:col-span-3">
           <div className="mb-2 flex items-center justify-between border-b-2 pb-2">
